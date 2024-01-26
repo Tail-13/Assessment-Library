@@ -1,0 +1,25 @@
+#sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    transition: all 0.4s ease-in-out;
+    z-index:1000
+}
+
+main {
+    padding-left: 300px;
+    transition: all 0.4s ease-in-out;
+}
+
+#topbar{
+    background-color: white;
+    position: sticky;
+    top:0;
+}
+
+#searchForm {
+    display: none;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
